@@ -6,4 +6,4 @@ O jogo segue a historia do filme Procurando Nemo(2003), onde o seu objetivo é a
 - Leia os dialogos com atenção.
 
 ## Mapa do jogo.
-![MAPA](TarcisioAlmeida--MariannaAriel\Mapa\INICIO.png)
+![MAPA](https://user-images.githubusercontent.com/91756723/192106477-fb0bf624-0f1d-4fe4-a961-17cf5668ab7f.png)
