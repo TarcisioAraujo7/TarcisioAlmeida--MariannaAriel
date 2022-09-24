@@ -1,3 +1,5 @@
+package Jogo;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +9,18 @@ public class Interacao {
     private List<String> dialogos = new ArrayList<>();
 
 
+    public List<Room> getSalas_dialog() {
+        return salas_dialog;
+    }
+
+    public List<String> getDialogos() {
+        return dialogos;
+    }
+
+    public List<Room> getSalas_death() {
+        return salas_death;
+    }
+    
     public void setDeathRoom(Room sala_atual){
         salas_death.add(sala_atual);
     }
@@ -25,8 +39,8 @@ public class Interacao {
             String dialogo = dialogos.get(salas_dialog.indexOf(sala_atual));
             System.out.println("\n" + dialogo);
         }
-
     }
+
 
 
 }
